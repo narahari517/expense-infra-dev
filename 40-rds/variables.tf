@@ -21,5 +21,6 @@ variable "rds_tags" {
 }
 
 variable "zone_name" {
-    default = "daws81s.online"
+    default = "nhari.online"
 }
+
