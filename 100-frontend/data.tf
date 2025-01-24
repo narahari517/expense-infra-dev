@@ -15,7 +15,7 @@ data "aws_ssm_parameter" "web_alb_listener_arn" {
   name = "/${var.project_name}/${var.environment}/web_alb_listener_arn"
 }
 
-data "aws_ami" "joindevops" {
+data "aws_ami" "devops" {
 
 	most_recent      = true
 	owners = ["973714476881"]

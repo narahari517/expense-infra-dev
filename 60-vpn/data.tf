@@ -7,7 +7,7 @@ data "aws_ssm_parameter" "public_subnet_ids" {
   name = "/${var.project_name}/${var.environment}/public_subnet_ids"
 }
 
-data "aws_ami" "joindevops" {
+data "aws_ami" "devops" {
 
 	most_recent      = true
 	owners = ["679593333241"]
